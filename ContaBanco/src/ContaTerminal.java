@@ -21,10 +21,9 @@ public class ContaTerminal {
         System.out.println("Digite o saldo: ");
         float saldo = scanner.nextFloat();
 
-        float saldof = saldo;
-
-        System.out.print("Olá " + nome + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + conta + " e seu saldo ");
-        System.out.printf("%.2f", saldo );
+        System.out.print("Olá " + nome + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia
+                + ", conta " + conta + " e seu saldo ");
+        System.out.printf("%.2f", saldo);
         System.out.println(" já está disponível para saque. ");
     }
 
